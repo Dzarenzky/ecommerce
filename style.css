@@ -781,16 +781,19 @@ textarea {
 	border: none;
 	outline: none;
 	resize: none;
-    margin-left: -80%;
 	margin-bottom: .5rem;
     box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+}
+.wrapper textarea{
+    width: 89vw;
+    margin-left: -27vw;
 }
 .btn-group {
 	display: flex;
 	grid-gap: .5rem;
 	align-items: center;
-    margin-left: 50%;
-    margin-right: -15%;
+    margin-top: 3vw;
+    margin-right: 0;
 }
 .btn-group .btn {
 	padding: .75rem 1rem;
@@ -1500,10 +1503,14 @@ a{
         margin-right: 0px;
     }
     #prodetails .single-pro-details {
-        width: 100%;
+        width: 98%;
         padding-top: 30px;
     }
 }
+    #prodetails .single-pro-details input, select{
+        margin-left: 1%;padding: 2%;
+
+    }
 
 /* review */
 
@@ -1537,21 +1544,25 @@ a{
         padding: 0.5rem;
         font-size: 0.875rem;
     }
+    .wrapper textarea {
+        margin-left: 1.5vw;
+    }
 
     .btn-group .btn.submit {
         margin-left: 0; 
         width: 100%;  }
-     .btn.submit {
-        margin-left: -20%; 
-        width: 100%;  }
 
     .btn-group {
-        flex-direction: column;
-        align-items: flex-start;
+        /* flex-direction: column;
+        align-items: flex-start; */
+        scale: 105%;
+        margin-left: 7vw;
+        align-items: center;
     }
 
     .btn-group .btn {
         width: 100%;
+        margin-right: 7%;
         margin-bottom: 0.5rem;
     }
 }
