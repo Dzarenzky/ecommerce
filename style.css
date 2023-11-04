@@ -792,7 +792,7 @@ textarea {
 	display: flex;
 	grid-gap: .5rem;
 	align-items: center;
-    margin-top: 3vw;
+    margin-top: 1.5vw;
     margin-right: 0;
 }
 .btn-group .btn {
