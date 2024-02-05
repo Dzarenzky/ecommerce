@@ -793,7 +793,7 @@ textarea {
 	grid-gap: .5rem;
 	align-items: center;
     margin-top: 1.5vw;
-    margin-right: 0;
+    margin-right: 5vw;
 }
 .btn-group .btn {
 	padding: .75rem 1rem;
